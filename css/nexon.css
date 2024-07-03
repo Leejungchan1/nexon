@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+html,body{
+    height: 100%;
+}
+/* wrap 영역*/
+#wrap{
+    position: relative;
+}
+
+
+/* header 영역*/
+#header{
+
+}
+
+/* h_inner 영역 */
+.h_inner{
+    overflow: hidden;
+}
+
+.nav{
+    float: left;
+    width: 100px;
+    height: 64px;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+.h_inner > .nav:hover > .m_menu{
+    /* display: block; */
+}
+
+
+.nav h1 a{
+    display: block;
+    line-height: 64px;
+    text-align: center;
+}
+
+.m_menu{
+    width: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 953px;
+    display: none;
+}
+
+
+.m_menu > li{
+    padding: 40px;
+    /* border: 1px solid red; */
+
+}
+
+.m_menu > li > ul{
+
+}
+
+.m_top_1{
+    margin-bottom: 20px;
+}
+
+.m_top_1 > li > a{
+    display: block;
+    text-indent: -9999px;
+}
+
+.t_link > a{
+    background: url(../img/10109.png)no-repeat;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+}
+
+li.t_link a{
+    background-position: 0 -50px;
+}
+
+.m_top_2{
+    /* border: 1px solid red; */
+    margin:40px 0;
+}
+
+
+.all_game{
+    margin-right: 180px;
+}
+
+.serves{
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.m_imner{}
+
+.asd1 > li{  }
+
+.asd1 > li > h2{}
+
+.asd1{
+    float: left;
+}
+
+.asd2{
+    float: right;
+}
+
+.sub{
+    font-size: 12px;
+}
+
+.sub > li{
+    margin-bottom: 5px;
+}
+
+.sub > li > a{
+    display: block;
+    /* border: 1px solid transparent; */ 
+    /* 호버로 border-bottom을 걸었을때 밀리는 현상을 방지
+    hover이벤트가 발생하지 않았을 때는 1px의 border를 투명하게 만드는 방식 */
+}
+
+.s_main{
+    width: 159px;
+    margin-bottom: 30px;
+    /* border: 1px solid gray; */
+}
+
+.sub > li > a:hover{
+    text-shadow: 0 0 8px black;
+    /* border-bottom: 1px solid gray; */
+}
+
+.s_main > h2{
+    margin-bottom: 10px;
+}
+
+.m_menu{
+    /* display: none; */
+}
+
+
+
+
+.h_logo{
+    float:left;
+    border: 1px solid black;
+    margin-left: calc(100% / 2 - 252px);
+}
+
+.h_logo a{
+    display: block;
+}
+
+.h_login{
+    float: right;
+    width: 200px;
+    height: 64px;
+    border: 1px solid black;
+    padding: 0 20px 0 20px;
+}
+
+.h_login_1{
+    float: left;
+    border: 1px solid black;
+    margin-top: 22px;
+}
+
+.h_login_1 a{
+    display: block;
+    width: 70px;
+    text-align: center;
+
+}
+
+.h_login_2{
+    float: right;
+    border: 1px solid black;
+    margin-top: 22px;
+}
+.h_login_2 a{
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+
+/* content 영역 */
+#content{}
+
+/* c_inner 영역 */
+.c_inner{}
+
+.c_inner a{}
+

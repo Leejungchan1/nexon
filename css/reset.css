@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+ul, li{list-style: none;}
+html, body{
+    font-size: 14px;
+    color: #444;
+}
+body{
+
+    font-family:'Times New Roman','S-CoreDream-3Light' , Times, serif;
+    font-size: 14PX;
+}
+img{vertical-align: middle;}
+table{border-collapse: collapse;}
+
+.clear_fix::before,
+.clear_fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
