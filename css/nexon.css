@@ -189,10 +189,41 @@ li.t_link a{
 }
 
 /* content 영역 */
-#content{}
+#content{
+
+}
 
 /* c_inner 영역 */
-.c_inner{}
+.c_inner{
+    height: 560px;
+    background: url(../img/10115.png)no-repeat center top;
+}
 
-.c_inner a{}
+
+
+.c_baner{
+
+}
+
+.baner_list{
+    display: flex;
+    justify-content:center;
+}
+
+.baner_list li{
+    border: 1px solid black;
+    margin: 0 20px;
+}
+.baner_list li a{
+    /* border: 1px solid black; */
+    display: block;
+    width: 250px;
+    height: 80px;
+    
+}
+
+.baner_list li a span{
+    font-size: 20px;
+}
+
 
