@@ -16,6 +16,8 @@ html,body{
 
 /* h_inner 영역 */
 .h_inner{
+    /* width: 1920px;
+    margin: 0 auto; */
     overflow: hidden;
 }
 
@@ -190,40 +192,57 @@ li.t_link a{
 
 /* content 영역 */
 #content{
-
+    margin: 0 auto;
+    width: 1920px;
+    height: 560px;
+    position: relative;
 }
+
+/* c_banner 영역 */
+.c_banner{
+    position: relative;
+}
+
+.c_banner li{
+    width: 1920px;
+    height: 560px;
+    position: absolute;
+}
+
+.c_banner li a{}
+
+.c_banner li a img{}
 
 /* c_inner 영역 */
 .c_inner{
-    height: 560px;
-    background: url(../img/10115.png)no-repeat center top;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    border: 2px solid black;
 }
 
-
-
-.c_baner{
+.c_inner li{
+    display: inline-block;
+    text-align: center;
 
 }
 
-.baner_list{
-    display: flex;
-    justify-content:center;
-}
-
-.baner_list li{
-    border: 1px solid black;
-    margin: 0 20px;
-}
-.baner_list li a{
-    /* border: 1px solid black; */
+.c_inner li a{
     display: block;
-    width: 250px;
-    height: 80px;
+    width: 185px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
     
 }
 
-.baner_list li a span{
-    font-size: 20px;
+.c_inner li a p{
+    /* margin-top: 10px; */
+}
+
+.c_inner li a p span{
+    font-size: 15px;
 }
 
 
