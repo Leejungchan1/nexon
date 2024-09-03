@@ -45,22 +45,20 @@ $(function(){
             }
             return '<a class="dot"><span>' + i + '</span></a>';
         },
-
-        responsive:[
-            {
-                breakpoint: 480,
-                settings:{
-                    
-                }
-            }
-        ]
-
     })
 
 
     //업데이트 슬라이드
     $(".move_img").slick({
         slidesToShow: 4,
+        responsive:[
+            {
+                breakpoint: 480,
+                settings:{
+                    slidesToShow: 3,
+                }
+            }
+        ]
     })
 
 
