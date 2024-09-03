@@ -1,0 +1,948 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+/* wrap 영역 -------------------------------------------------*/
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+/* header 영역 -------------------------------------------------*/
+#header{
+    background-color: white;
+}
+
+/* h_inner 영역 */
+.h_inner{
+    /* width: 1920px;
+    margin: 0 auto; */
+    overflow: hidden;
+}
+
+.nav{
+    float: left;
+    width: 100px;
+    height: 64px;
+    /* display: inline-block; */
+    z-index: 100;
+}
+
+.h_inner > .nav:hover > .m_menu{
+    /* display: block; */
+}
+
+
+.nav > a{
+    display: block;
+    width: 100px;
+    height: 100%;
+    line-height: 64px;
+    text-align: center;
+    font-size: 20px;
+
+    background-repeat: no-repeat;
+}
+
+.m_menu{
+    width: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 953px;
+    display: none;
+    z-index: 101;
+}
+
+
+.m_menu > li{
+    padding: 40px;
+    /* border: 1px solid red; */
+
+}
+
+.m_menu > li > ul{
+
+}
+
+.m_top_1{
+    margin-bottom: 20px;
+    width: 30px;
+    height: 20px;
+    float: right;
+}
+
+.m_top_1 > li > a{
+    display: block;
+    text-indent: -9999px;
+}
+
+.t_link > a{
+    background: url(../img/10109.png)no-repeat;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s;
+    
+}
+
+.t_link > a:hover{
+    background-color: rgb(62, 62, 255);
+}
+
+li.t_link a{
+    background-position: 0 -50px;
+}
+
+hr{
+    clear: both;
+}
+
+.m_top_2{
+    /* border: 1px solid red; */
+    margin:40px 0;
+}
+
+
+.all_game{
+    margin-right: 180px;
+}
+
+.serves{
+    padding: 10px;
+    border: 1px solid gray;
+    transition: all 0.3s;
+}
+
+.serves:hover{
+    background-color: gray;
+    color: white;
+}
+
+.m_imner{}
+
+.asd1 > li{  }
+
+.asd1 > li > h2{}
+
+.asd1{
+    float: left;
+}
+
+.asd2{
+    float: right;
+}
+
+.sub{
+    font-size: 12px;
+}
+
+.sub > li{
+    margin-bottom: 5px;
+}
+
+.sub > li > a{
+    display: block;
+    /* border: 1px solid transparent; */ 
+    /* 호버로 border-bottom을 걸었을때 밀리는 현상을 방지
+    hover이벤트가 발생하지 않았을 때는 1px의 border를 투명하게 만드는 방식 */
+}
+
+.sub .on{
+    color: tomato;
+    font-weight: bold;
+}
+
+.s_main{
+    width: 159px;
+    margin-bottom: 30px;
+    /* border: 1px solid gray; */
+}
+
+.sub > li > a:hover{
+    text-shadow: 0 0 8px black;
+    /* border-bottom: 1px solid gray; */
+}
+
+.s_main > h2{
+    margin-bottom: 10px;
+}
+
+.m_menu{
+    /* display: none; */
+}
+
+
+
+
+.h_logo{
+    float:left;
+    margin-left: calc(100% / 2 - 252px);
+}
+
+.h_logo a{
+    display: block;
+}
+
+.h_login{
+    float: right;
+    width: 260px;   
+    height: 64px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h_login_img{
+
+}
+
+.h_login_img li{
+    display: inline-block;
+}
+
+.h_login_img li a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+
+    background-color: #222;
+    transition: all 0.3s;
+}   
+
+.h_login_img li:nth-child(1) a{
+    background-image: url(../img/10101.png);
+}
+.h_login_img li:nth-child(2) a{
+    background-image: url(../img/10101.png);
+    background-position: 0 -50px;
+}
+
+.h_login_img li:hover a{
+    background-color: rgb(62, 62, 255);
+}
+
+.h_login_1{}
+
+.h_login_1 a{
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+
+.h_login_1 a:hover{
+    color: rgb(62, 62, 255);
+}
+
+.h_login_2{}
+
+.h_login_2 a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.h_login_2 a:hover{
+    background-color: rgb(62, 62, 255);
+    color: white;
+    border: 2px solid rgb(62, 62, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* container ------------------------------------------------- */
+.container{
+    width: 100%;
+    position: relative;
+}
+
+
+/* sticky_menu_up ------------------------------------------------- */
+.sticky_menu_up{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    float: left;
+    /* position: absolute; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.m_2{
+    width: 550px;
+}
+
+.sticky_menu_up span{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.sticky_menu_up span:hover{
+    color: orange;
+}
+
+
+/* sticky_menu_left ------------------------------------------------- */
+.sticky_menu_left{
+    width: 100px;
+    height: calc(100vh - 100px);
+    background-color: rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 100px;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+    align-items: center;
+    color: white;
+    border-right: 1px solid gray;
+}
+
+
+.sticky_menu_left > span{}
+
+.lang{}
+
+.lang a{}
+
+.lang a p{
+    margin: 20px 0;
+    text-align: center;
+    transform: rotate(270deg);
+}
+.lang a span{
+    display: block;
+}
+
+.lang a span:hover{
+    color: orange;
+}
+
+.sns{
+    margin-bottom: 50px;
+}
+
+.sns a{
+    display: block;
+}
+
+.sns a span{
+    display: block;
+    margin-bottom: 35px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    text-indent: -9999px;
+    opacity: 0.2;
+}
+
+.sns a span:nth-child(1){
+    background-image: url(../img/10135.png);
+    background-position: -0.5px -69px;
+    background-size: 140px;
+}
+
+.sns a span:nth-child(2){
+    background-image: url(../img/10135.png);
+    background-position: 0 -140px;
+    background-size: 140px;
+}
+
+.sns a span:nth-child(3){
+    background-image: url(../img/10135.png);
+    background-position: 0 -209px;
+    background-size: 140px;
+}
+
+.sns a span:hover{
+    background-color: orange;
+    opacity: 1;
+}
+
+
+/* trailer ------------------------------------------------- */
+.trailer{}
+
+
+.trailer_video{
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-attachment: fixed;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 64px);
+}
+
+video source{
+    width: 1920px;
+}
+
+.trailer_video > img{
+    position: absolute;
+    left: 200px;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+.selec{
+    width: 350px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 200px;
+    bottom: 18%;
+    border-left: 1px solid white;
+    color: white;
+}
+
+.selec:hover{
+    color: orange;
+    border-left: 1px solid orange;
+}
+
+.selec:hover .triangle{
+    border-left-color: orange;
+}
+
+.selec:hover .line hr{
+    background-color: orange;
+}
+
+.selec:hover .one{
+    width: 50px;
+    height: 50px;
+    right: 30px;
+}
+
+.selec > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selec > a > img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.selec > a > span{
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.line{}
+
+.line hr{
+    border: 0;
+    width: 60px;
+    height: 0.5px;
+    background-color: white;
+}
+
+.triangle{
+    border: 3px solid transparent;
+    border-left-color: white;
+}
+
+
+
+.one{
+    width: 35px;
+    height: 35px;
+    /* background-color: aqua; */
+    background-image: url(../img/nac_img/10008.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 21px;
+    top: 1px;
+    transition: all 0.3s;
+}
+
+.play_btn{
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+.play_btn a{
+    font-size: 20px;
+    color: white;
+}
+
+.play_btn a p{
+    position: absolute;
+    top: 50px;
+    left: -60px;
+}
+
+.play_btn a > div{
+    text-indent: -9999px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../img/nac_img/10007-2.png);
+    transition: all 0.3s;
+}
+
+.play_btn:hover a > div{
+    background-image: url(../img/nac_img/10007.png);
+}
+
+
+.downloads{
+    width: 28px;
+    height: 149px;
+    background-image: url(../img/nac_img/10009.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.downloads p{
+    writing-mode: vertical-rl;
+    color: white;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    top: -70px;
+    left: -2px;
+}
+
+
+
+
+
+
+
+/* trailer 영역 ------------------------------------------------- */
+.trailer{
+    width: 100%;
+    height: 200vh;
+    background-image: url(../img/nac_img/10032.jpg);
+}
+
+.trailer_inner_up{
+    width: 100%;
+    height: 100vh;
+    padding: 150px 200px 0 200px;
+}
+
+.trailer_inner_left{
+    width: 50%;
+    float: left;
+}
+
+.trailer_inner_left hr{
+    width: 30%;
+    margin: 50px 0;
+}
+
+.trailer_inner_txt{
+    height: 167px;
+    display: flex;
+    align-items: center;
+}
+
+.trailer_inner_txt img{
+    margin-right: 15px;
+}
+
+.trailer_inner_txt span{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+
+.trailer_inner_substxt{
+    margin-left: 100px;
+}
+
+.trailer_inner_substxt span{
+    color: white;
+    font-size: 16px;
+}
+
+.trailer_inner_right{
+    width: 48%;
+    float: right;
+
+}
+
+.trailer_inner_right img{
+    width: 700px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.trailer_inner_right img:hover{
+    box-shadow: 0px 0px 10px white;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.trailer_inner_down{
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.trailer_inner_down_head{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0 200px;
+    display: flex;
+}
+
+.trailer_inner_down_head h2{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+.trailer_inner_down_head span{
+    font-size: 16px;
+}
+
+
+.slick_img{
+    width: 100%;
+}
+
+.move_img{}
+
+.move_img li{}
+
+.move_img li img{}
+
+.move_img .slick-slide{
+    margin: 50px 20px 20px 20px ;
+    filter: opacity(0.6);
+    transition: all 0.5s;
+}
+
+.move_img .slick-slide.slick-center{
+    filter: opacity(1);
+    transform: scale(1.05);;
+    box-shadow: 0 0 5px white;
+
+}
+
+.move_img .slick-dots{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 20px;
+    text-align: center;
+}
+
+.move_img .slick-dots li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.move_img .slick-dots li button{
+    display: block;
+    width: 30px;
+    height: 8px;
+    border-radius: 25%;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.move_img .slick-dots li.slick-active button{
+    background-color: tomato;
+}
+
+.move_img .slick-arrow{
+    position: absolute;
+    z-index: 70;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.move_img .slick-arrow.slick-prev{
+    left: 400px;
+    top: 50%;
+    width: 59px;
+    height: 59px;
+    background-repeat: no-repeat;
+    background-color: transparent; /* 배경색 제거 */
+    background-image: url(../img/nac_img/10034.png);
+    text-indent: -9999px;
+}
+
+.move_img .slick-arrow.slick-prev:hover{
+    background-position: -59px 0;
+}
+
+.move_img .slick-arrow.slick-next{
+    right: 400px;
+    top: 50%;
+    width: 59px;
+    height: 59px;
+    background-repeat: no-repeat;
+    background-color: transparent; /* 배경색 제거 */
+    background-image: url(../img/nac_img/10034.png);
+    transform: scaleX(-1);
+    text-indent: 9999px;
+}
+
+.move_img .slick-arrow.slick-next:hover{
+    background-position: -59px 0;
+}
+
+
+
+
+
+/* footer 영역 ------------------------------------------------- */
+#footer{
+    color: white;
+    margin-top: 50px;
+    padding: 0 200px;
+}
+
+
+
+/* f_mid 영역 ------------------------------------------------- */
+.f_mid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.f_m_l{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 10px;
+}
+
+.f_m_l p{
+    padding: 0 20px;
+    margin: 10px 0;
+    border: 1px solid white ;
+}
+
+.f_m_l p a{
+    display: block;
+    font-size: 12px;
+}
+
+.f_m_r{
+    margin-top: 10px;
+}
+
+.select{
+    width: 200px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    padding: 5px 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+select:hover {
+    border-color: #888;
+}
+
+.select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+
+
+/* f_down 영역 ------------------------------------------------- */
+.f_down{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* popup 영역 ------------------------------------------------- */
+.popup{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 101;
+}
+
+.popup p{}
+
+.pop_click{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pop_click span{
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.p_1{
+    border: 1px solid black;
+}
+
+.p_1:hover{
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+.p_2{
+    background-color: black;
+    color: white;
+}
+
+.p_2:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.pop_click div{
+    background-image: url(../img/nac_img/10030.png);
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    width: 19px;
+    height: 19px;
+    background-color: black;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* modal 영역 ------------------------------------------------- */
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    display: none;
+}

@@ -1,0 +1,245 @@
+@media screen and (max-width:1280px) { /* 테블릿 */
+
+    /* header ------------------------------------------------------- */
+    #header{
+        min-width: 1000px;
+    }
+
+
+
+    
+    /* slide_img 영역 ------------------------------------------------- */
+    #slide_img{
+        height: 400px;
+        min-width: 1000px;
+    }
+
+    .s_banner li a img{
+        height: 400px;
+    }
+
+    .s_banner .slick-dots{
+        bottom: 160px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* content 영역 ------------------------------------------------- */
+
+    #content{
+        width: 1000px ;
+    }
+
+    .l_cont{
+        width: 55% ;
+    }
+
+    .m_cont{
+        display: none;
+    }
+
+    .r_cont{
+        width: 43% ;
+    }
+
+
+
+
+    /* footer 영역 ------------------------------------------------- */
+    #footer{
+        min-width: 1000px;
+    }
+
+    .f_m_l{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* border: 1px solid white; */
+        width: 40%;
+    }
+
+
+
+
+    /* game_menu 영역 ------------------------------------------------- */
+    #game_menu{
+        width: 1000px ;
+    }
+
+    /* gm_menu_down 영역 ------------------------------------------------- */
+    .gm_menu_down{
+        display: grid ;
+        grid-template-rows: repeat(15, 1fr);
+        grid-template-columns: repeat(3, 300px);
+        grid-auto-rows: 100px;
+
+    }
+
+    /* modal 영역 ------------------------------------------------- */
+    .modal{
+        min-width: 1000px;
+    }
+
+}
+
+
+@media screen and (max-width:600PX) { /* 테블릿 */
+        /* header ------------------------------------------------------- */
+    #header{
+        min-width: 480px;   
+    }
+
+    .h_login{
+        width: 150px;
+    }
+
+    .h_login_img{
+        display: none;
+    }
+
+    .h_login_1 a{
+        width: 50px;
+        font-size: 12px;
+    }
+
+    
+    .h_login_2 a{
+        width: 50px;
+        font-size: 12px;
+    }
+
+
+    
+    /* slide_img 영역 ------------------------------------------------- */
+    #content{
+        width: 480px ;
+    }
+
+    #slide_img{
+        height: 400px;
+        min-width: 480px;   
+    }
+
+    .s_banner li a img{
+        height: 400px;
+        object-fit:cover ;
+    }
+
+    .s_banner .slick-dots{
+        bottom: 150px;
+    }
+
+    .s_banner .slick-dots li{
+        padding: 0 10px;
+        height: 60px;
+        line-height: 55px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .s_banner .slick-dots span{
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* content 영역 ------------------------------------------------- */
+    .cont{
+        flex-wrap:wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .l_cont{
+        width: 480px;
+    }
+
+    .m_cont{
+        display: none;
+    }
+
+    .r_cont{
+        width: 480px;
+    }
+
+
+
+
+
+    /* game_menu 영역 ------------------------------------------------- */
+    #game_menu{
+        width: 480px ;
+        padding: unset;
+    }
+
+    .gm_logo p{
+        display: none;
+    }
+
+
+    /* gm_menu_down 영역 ------------------------------------------------- */
+    .gm_menu_down{
+        display: grid ;
+        grid-template-rows: repeat(15, 210px);
+        grid-template-columns: repeat(3, 155px);
+        grid-auto-rows: 100px;
+    }
+
+    .gm_menu_down li{
+        height: 200px;
+    }
+
+
+
+
+    /* footer 영역 ------------------------------------------------- */
+    #footer{
+        min-width: 480px;   
+    }
+
+    .f_mid{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .f_m_l{
+        width: 80%;
+    }
+
+
+
+
+
+    /* modal 영역 ------------------------------------------------- */
+    .modal{
+        min-width: 480px;   
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
