@@ -44,7 +44,16 @@ $(function(){
                 i = "마비노기";
             }
             return '<a class="dot"><span>' + i + '</span></a>';
-        }
+        },
+
+        responsive:[
+            {
+                breakpoint: 480,
+                settings:{
+                    
+                }
+            }
+        ]
 
     })
 

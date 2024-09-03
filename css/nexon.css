@@ -657,8 +657,12 @@ hr{
     margin: 10px 0;
 }
 
-.one{
+.login_box_m p{
     width: 175px;
+}
+
+.one{
+    width: 100%;
     height: 52px;
     background-color: rgb(70, 70, 70);
     color: white;
@@ -671,7 +675,7 @@ hr{
 }
 
 .qr{
-    width: 175px;
+    width: 100%;
     height: 52px;
     background-color: rgb(70, 70, 70);
     color: white;

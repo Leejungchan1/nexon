@@ -2,7 +2,8 @@
 
     /* header ------------------------------------------------------- */
     #header{
-        min-width: 1000px;
+        max-width: 1280px;
+        width: 100%;
     }
 
 
@@ -11,7 +12,7 @@
     /* slide_img 영역 ------------------------------------------------- */
     #slide_img{
         height: 400px;
-        min-width: 1000px;
+        max-width: 1280px;
     }
 
     .s_banner li a img{
@@ -54,7 +55,7 @@
 
     /* footer 영역 ------------------------------------------------- */
     #footer{
-        min-width: 1000px;
+        max-width: 1280px;
     }
 
     .f_m_l{
@@ -84,7 +85,7 @@
 
     /* modal 영역 ------------------------------------------------- */
     .modal{
-        min-width: 1000px;
+        max-width: 1280px;
     }
 
 }
@@ -93,7 +94,8 @@
 @media screen and (max-width:480px) { /* 테블릿 */
         /* header ------------------------------------------------------- */
     #header{
-        min-width: 480px;   
+        max-width: 480px;   
+        width: 100%;
     }
 
     .h_login{
@@ -118,15 +120,9 @@
 
     
     /* slide_img 영역 ------------------------------------------------- */
-    #content{
-        width: 480px ;
-        margin: 80px 0;
-        padding: 0 5px;
-    }
-
     #slide_img{
         height: 400px;
-        min-width: 480px;   
+        max-width: 480px;   
     }
 
     .s_banner li a img{
@@ -136,7 +132,7 @@
 
     .s_banner .slick-dots{
         bottom: 150px;
-        width: 460px;
+        width: 90%;
     }
 
     .s_banner .slick-dots li{
@@ -148,7 +144,7 @@
     }
 
     .s_banner .slick-dots span{
-        font-size: 14px;
+        font-size: 40%;
     }
 
 
@@ -161,6 +157,13 @@
 
 
     /* content 영역 ------------------------------------------------- */
+    #content{
+        max-width: 480px;
+        width: 90% ;
+        margin: 80px auto;
+        padding: 0 5px;
+    }
+
     .cont{
         flex-wrap:wrap;
         flex-direction: column;
@@ -169,7 +172,8 @@
     }
 
     .l_cont{
-        width: 480px;
+        max-width: 480px;
+        width: 100%;
     }
 
     .m_cont{
@@ -177,12 +181,41 @@
     }
 
     .r_cont{
-        width: 480px;
+        max-width: 480px;
+        width: 100%;
     }
 
 
     .login_box{
         padding: 30px 0;
+    }
+
+    .login_box_in{
+        width: 100%;
+    }
+
+    .login{
+        width: 100%;
+    }
+
+    .login_box_m p{
+        width: 200px;
+    }
+
+    .one{
+        width: 100%;
+    }
+
+    .qr{
+        width: 100%;
+    }
+
+    .anther{
+        width: 100%;
+    }
+
+    .gm_such input{
+        width: 100%;
     }
 
 
@@ -191,8 +224,8 @@
 
     /* game_menu 영역 ------------------------------------------------- */
     #game_menu{
-        width: 480px ;
-        padding: unset;
+        max-width: 480px;
+        width: 100%;
         padding: 0 5px;
     }
 
@@ -204,8 +237,8 @@
     /* gm_menu_down 영역 ------------------------------------------------- */
     .gm_menu_down{
         display: grid ;
-        grid-template-rows: repeat(15, 210px);
-        grid-template-columns: repeat(3, 155px);
+        grid-template-rows: repeat(15, 6%);
+        grid-template-columns: repeat(3, 30%);
         grid-auto-rows: 100px;
     }
 
@@ -218,8 +251,13 @@
 
     /* footer 영역 ------------------------------------------------- */
     #footer{
-        min-width: 480px;   
+        max-width: 480px;   
     }
+
+    .f_notice{
+        font-size: 90%;
+    }
+    
 
     .f_mid{
         display: flex;
@@ -229,7 +267,16 @@
     }
 
     .f_m_l{
-        width: 80%;
+        width: 100%;
+        display: grid ;
+        grid-template-rows: repeat(5, 20%);
+        grid-template-columns: repeat(3, 32%);
+        grid-auto-rows: 100px;
+    }
+
+    .f_m_l p{
+        padding: 0;
+        text-align: center;
     }
 
 
@@ -238,7 +285,7 @@
 
     /* modal 영역 ------------------------------------------------- */
     .modal{
-        min-width: 480px;   
+        max-width: 480px;   
     }
 
 }
