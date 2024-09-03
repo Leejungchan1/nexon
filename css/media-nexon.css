@@ -227,6 +227,11 @@
         width: 100%;
     }
 
+    .move_img li p{
+        width: 50%;
+        font-size: 12px;
+    }
+
 
 
 
