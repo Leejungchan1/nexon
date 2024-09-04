@@ -324,6 +324,10 @@ hr{
     width: 550px;
 }
 
+.m_3{
+    display: none;
+}
+
 .sticky_menu_up span{
     font-size: 20px;
     transition: all 0.3s;
@@ -416,10 +420,7 @@ hr{
 }
 
 
-/* trailer ------------------------------------------------- */
-.trailer{}
-
-
+/* trailer_video ------------------------------------------------- */
 .trailer_video{
     width: 100%;
     height: calc(100vh - 64px);
@@ -433,10 +434,13 @@ video {
     top: 0;
     width: 100%;
     height: calc(100vh - 64px);
+    object-fit: cover;
 }
 
 video source{
-    width: 1920px;
+    display: block;
+    width: 100%;
+    height: calc(100vh - 64px);
 }
 
 .trailer_video > img{
@@ -594,7 +598,7 @@ video source{
 .trailer_inner_up{
     width: 100%;
     height: 100vh;
-    padding: 150px 200px 0 200px;
+    padding: 150px 100px 0 200px;
 }
 
 .trailer_inner_left{
@@ -618,7 +622,7 @@ video source{
 }
 
 .trailer_inner_txt span{
-    font-size: 72px;
+    font-size: 5rem;
     font-weight: bold;
     color: white;
 }
@@ -655,9 +659,6 @@ video source{
 .trailer_inner_down{
     width: 100%;
     height: 100vh;
-    width: 100%;
-    height: 100vh;
-
 }
 
 .trailer_inner_down_head{
@@ -693,15 +694,21 @@ video source{
 
 .move_img .slick-slide{
     margin: 50px 20px 20px 20px ;
-    filter: opacity(0.6);
+    filter: opacity(0.5);
+    transform: scale(0.95);;
     transition: all 0.5s;
+}
+
+.move_img .slick-slide img{ /* 슬릭슬라이더 이미지 크기 조절 */
+    width: 100%;
+    object-fit: cover;
 }
 
 .move_img .slick-slide.slick-center{
     filter: opacity(1);
     transform: scale(1.05);;
     box-shadow: 0 0 5px white;
-
+    z-index: 100;
 }
 
 .move_img .slick-dots{
@@ -782,6 +789,7 @@ video source{
 
 /* footer 영역 ------------------------------------------------- */
 #footer{
+    width: 100%;
     color: white;
     margin-top: 50px;
     padding: 0 200px;
@@ -791,6 +799,7 @@ video source{
 
 /* f_mid 영역 ------------------------------------------------- */
 .f_mid{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -802,7 +811,7 @@ video source{
     flex-wrap: wrap;
     /* border: 1px solid white; */
     width: 20%;
-    height: 10px;
+    height: 40px;
 }
 
 .f_m_l p{

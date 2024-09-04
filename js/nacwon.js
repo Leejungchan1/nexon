@@ -19,6 +19,15 @@ $(function(){
         arrows: true,
         centerMode: true,
         centerPadding: "330px",
+        responsive:[
+            {
+                breakpoint: 1280,
+                settings:{
+                    slidesToShow: 1,
+                    centerPadding: "50px",
+                }
+            }
+        ]
     })
 
     $(".pop_click div").click(function(){
