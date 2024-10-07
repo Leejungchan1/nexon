@@ -1,17 +1,4 @@
 $(function(){
-    //메뉴
-    
-    // $(".h_inner .nav").hover(function(){
-
-    //     // $(this).children("ul").stop().slideDown();
-    //     $(".h_inner .nav .m_menu").stop().slideDown();
-
-    // }, function(){
-    //     // $(this).children("ul").stop().slideUp();
-    //     $(".h_inner .nav .m_menu").stop().slideUp();
-
-    // })
-
     $(".nav > a").click(function(){
         $(".h_inner .nav .m_menu").stop().slideDown();
         $(".modal").fadeIn();
