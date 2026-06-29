@@ -1,0 +1,339 @@
+@media screen and (max-width:1280px) { /* 테블릿 */
+
+    /* header ------------------------------------------------------- */
+    #header{
+        max-width: 1280px;
+        width: 100%;
+    }
+
+    /* sticky_menu_left ------------------------------------------------- */
+    .sticky_menu_left{
+        display: none;
+    }
+
+    /* trailer_video ------------------------------------------------- */
+    .trailer_video{
+        width: 100%;
+        background-image: url(../img/nac_img/10012.jpg);
+        object-fit: cover;
+    }
+
+    video{
+        display: none;
+    }
+
+    .trailer_video > img{
+        width: 40%;
+        left: 100px;
+        bottom: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
+    .selec{
+        width: 40%;
+        position: absolute;
+        left: 100px;
+        bottom: 15%;
+    }
+
+
+    /* trailer 영역 ------------------------------------------------- */
+    .trailer_inner_up{
+        padding: 200px 0;
+    }
+
+    .trailer_inner_left{
+        width: 90%;
+        margin-left: 100px;
+    }
+
+    .trailer_inner_txt span{
+        font-size: 7vw;
+    }
+
+    .trailer_inner_right{
+        display: none;
+    }
+
+    /* footer 영역 ------------------------------------------------- */
+    .f_m_l{
+        width: 40%; 
+    }
+
+
+    /* popup 영역 ------------------------------------------------- */
+    .popup{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .pop_click{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pop_click div{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+
+}
+
+@media screen and (max-width:480px) { /* 모바일 */
+    /* header ------------------------------------------------------- */
+    #header{
+        max-width: 480px;   
+        width: 100%;
+    }
+
+    .nav{
+        width: 19%;
+    }
+
+    .h_logo{
+        width: 33%;
+        margin-left: 0;
+    }
+
+    .h_login{
+        width: 33%;
+    }
+
+    .h_login_img{
+        display: none;
+    }
+
+    .h_login_1 a{
+        width: 50px;
+        font-size: 12px;
+    }
+
+    
+    .h_login_2 a{
+        width: 50px;
+        font-size: 12px;
+    }
+
+
+
+    /* sticky_menu_up ------------------------------------------------- */
+    .sticky_menu_up{
+        height: 50px;
+    }
+
+    .m_1{
+        display: none;
+    }
+    .m_2{
+        display: none;
+    }
+
+    .m_3{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sticky_menu_up > div{
+        display: none;
+    }
+
+
+    /* trailer_video ------------------------------------------------- */
+    .trailer_video{
+        width: 100%;
+        background-image: url(../img/nac_img/10012.jpg);
+        object-fit: cover;
+    }
+
+    video{
+        display: none;
+    }
+
+    .trailer_video > img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+        position: unset;
+        transform: unset;
+    }
+
+    .play_btn{
+        width: 133px;
+        height: 133px;
+        position: unset;
+        margin: 0 auto;
+        transform: translateY(-250%);
+    }
+
+    .play_btn a > div{
+        width: 100%;
+    }
+
+    .selec{
+        width: 90%;
+        height: 90px;
+        background-color: rgba(0, 0, 0, 0.2);
+        position: unset;
+        border-left: 1px solid white;
+        color: white;
+        margin: 0 auto;
+        margin-top: 300px;
+    }
+
+    .downloads{
+        background-image: url(../img/nac_img/10009.png);
+        position: absolute;
+        bottom: 40%;
+        right: 30px;
+    }
+
+    /* trailer 영역 ------------------------------------------------- */
+    .trailer{
+        width: 100%;
+        height: 150vh;
+    }
+
+    .trailer_inner_up{
+        height: 70vh;
+        padding: 100px 0;
+    }
+
+    .trailer_inner_left{
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .trailer_inner_txt img{
+        height: 120px;
+    }
+
+    .trailer_inner_txt span{
+        font-size: 9vw;
+    }
+
+    .trailer_inner_substxt{
+        margin-left: 40px;
+    }
+        
+    .trailer_inner_substxt span{
+        font-size: 4vw;
+    }
+    
+    .trailer_inner_right{
+        display: none;
+    }
+
+    .trailer_inner_down{
+        height: 70vh;
+    }
+
+    .trailer_inner_down_head{
+        padding: 0 5px;
+    }
+
+    .move_img .slick-dots{
+        width: 100%;
+
+    }
+
+    .move_img .slick-dots li button{
+
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        text-indent: -9999px;
+        border: none;
+        cursor: pointer;
+        background-color: gray;
+    }
+
+    .move_img .slick-arrow.slick-prev{
+        left: 25px;
+        top: 45%;
+        width: 59px;
+        height: 59px;
+    }
+    
+    .move_img .slick-arrow.slick-next{
+        right: 25px;
+        top: 45%;
+        width: 59px;
+        height: 59px;
+    }
+
+    /* footer 영역 ------------------------------------------------- */
+    #footer{
+        width: 100%;
+        color: white;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .f_mid{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }   
+
+    .f_m_l{
+        width: 100%;
+    }
+
+    .f_m_l p a{ 
+        display: block;
+        font-size: 10px;
+    }
+
+    .select{
+        width: 100px;
+    }
+
+    .f_down{
+        padding: 10px;
+    }
+
+    /* popup 영역 ------------------------------------------------- */
+    .popup{
+        height: 250px;
+        padding-top: 60px;
+    }
+
+    .pop_click{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pop_click span{
+        display: block;
+        width: 90%;
+        height: 30px;
+        cursor: pointer;
+        margin: 5px;
+        text-align: center;
+    }
+    
+
+    .pop_click div{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+}
